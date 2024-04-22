@@ -47,51 +47,8 @@ function Table() {
         </div>
         <div className="">
           <div role="tablist" className="tabs tabs-lifted">
-            {/* <input
-            type="radio"
-            name="my_tabs_2"
-            role="tab"
-            className="tab"
-            aria-label="Tab 1"
-            />
-            <div
-            role="tabpanel"
-            className="tab-content bg-base-100 border-base-300 rounded-box p-6"
-            >
-            User error
-            </div>
-            
-            <input
-            type="radio"
-            name="my_tabs_2"
-            role="tab"
-            className="tab"
-            aria-label="Tab 2"
-            checked
-            />
-            <div
-            role="tabpanel"
-            className="tab-content bg-base-100 border-base-300 rounded-box p-6"
-            >
-            Email
-            </div>
-
-            <input
-            type="radio"
-            name="my_tabs_2"
-            role="tab"
-            className="tab"
-            aria-label="Tab 3"
-            />
-            <div
-            role="tabpanel"
-            className="tab-content bg-base-100 border-base-300 rounded-box p-6"
-            >
-            Password
-          </div> */}
             <div className="overflow-x-auto">
               <table className="table">
-                {/* head */}
                 <thead>
                   <tr>
                     <th></th>
@@ -101,21 +58,18 @@ function Table() {
                   </tr>
                 </thead>
                 <tbody>
-                  {/* row 1 */}
                   <tr>
                     <th>1</th>
                     <td>Zuhriddin</td>
                     <td>Zuhriddin@gmail.com</td>
                     <td>123</td>
                   </tr>
-                  {/* row 2 */}
                   <tr className="hover">
                     <th>2</th>
                     <td>Najot ta'lim</td>
                     <td>Najot_talim@gmail.com</td>
                     <td>12345</td>
                   </tr>
-                  {/* row 3 */}
                   <tr>
                     <th>3</th>
                     <td>Frontend</td>
